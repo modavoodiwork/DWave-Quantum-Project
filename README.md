@@ -14,10 +14,10 @@ Run the following terminal command: <code>pip install dwave-ocean-sdk</code>
 <div>2 - Visit the URL provided in the terminal and select the option to authorize when prompted</div>
 <div>3 - Copy the 'authorization code' provided on the website and paste it into the terminal to complete the process</div>
 <br>
-<div><strong>Optional, manual copy/paste setup steps</strong></div>
+<div><strong>Alternative steps</strong></div>
 <div>- Login to the Leap dashboard and copy the 'Solver API Token'</div>
-<div>- In the terminal, run the command <code>dwave setup</code> and paste your 'Solver API Token' when prompted</div>
+<div>- In the terminal, run the command <code>dwave setup</code> and paste the 'Solver API Token' when prompted</div>
 <br>
 <h2>Confirm Setup</h2>
-<div>Run the following terminal command to confirm setup</div>
+<div>Run the following terminal command to confirm a successful setup</div>
 <code>dwave ping --client qpu</code>
