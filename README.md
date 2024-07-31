@@ -1,15 +1,14 @@
-<h1>Initial Setup Steps</h1>
-<div>The following procedure authorizes the Ocean software to access your Leap account and enables storing your SAPI token in your development environment.</div>
-<br>
-<div>Run the following command:</div>
-<br>
-<code>dwave setup --oob</code>
+<h1>Initial Setup</h1>
+<div>Use the following procedure to authorize the Ocean software to access your Leap account and store your SAPI token in your development environment.</div>
+<div>
+1. In the terminal, use the following command: <code>dwave setup --oob</code><br>
+2. Visit the URL provided and login to Leap if prompted.<br>
+3. Copy the 'authorization code' provided on the website and paste it in the terminal.<br>
+</div>
 
 <br><br><br>
 
-
-<div><strong>Optionally, you can complete the initial setup by manually copying and pasting your API token from your Leap dashboard.</strong></div>
-<br>
-<div>Run the following command to manually enter your API token:</div>
-<br>
-<code>dwave setup</code>
+<div><strong>Optionally, you can complete the initial setup manually</strong></div>
+<div>1. Login to Leap and copy your Solver API Token from the dashboard</div>
+<div>2. In the terminal, run the command <code>dwave setup</code> and paste your API token when prompted.</div>
+  
