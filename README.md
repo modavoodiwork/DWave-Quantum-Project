@@ -1,15 +1,15 @@
 <h1>Initial Setup</h1>
 <h2>Install Ocean</h2>
-<div>For <b>IDEs installed locally</b> on your system<br>
-Run the following terminal command: <code>pip install dwave-ocean-sdk</code>
+<div><b>For IDEs installed locally on your system</b></div>
+<div>Run the following terminal command: <code>pip install dwave-ocean-sdk</code></div>
 <br>
 <br>
-<div>For <b>Cloud IDEs</b> (i.e. GitHub codespaces)</div>
-<div>IDEs (local or cloud-based) supporting the Development Containers specification (aka “devcontainers”) will automatically update to a recent Ocean SDK if configured to use the <a href=https://github.com/dwavesystems/ocean-dev-docker>Ocean-Dev Docker Image</a>.</div>
+<div><b>For Cloud IDEs (i.e. GitHub codespaces)</b></div>
+<div>Any IDE (local or cloud-based) supporting the Development Containers specification (aka “devcontainers”) will automatically update to a recent Ocean SDK if configured to use an <a href=https://github.com/dwavesystems/ocean-dev-docker>Ocean-Dev Docker Image</a>.</div>
 <div>Sample repository to help you get started: <a href=https://github.com/dwavesystems/ocean-devcontainer>ocean-devcontainer</a></div>
 <br>  
 <h2>Authorize Access to Leap</h2>
-<div>The following procedure will authorize the Ocean software to access your Leap account and store the 'Solver API Token' for your <i>active project</i> in your development environment.</div>
+<div>The following procedure will authorize the Ocean software to access your <i>current active project</i> in your Leap account and store the 'Solver API Token' into your development environment.</div>
 <br>
 <div>1 - Run the following terminal command: <code>dwave setup --oob</code></div>
 <div>2 - Visit the URL provided in the terminal and select the option to authorize when prompted</div>
